@@ -4,14 +4,105 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:500,600,700,800,900' rel='stylesheet' type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="icon" type="image/jpg" />
         <title>Bezwaar24</title>
     </head>
 
-    <body>
-        
+    <body data-spy="scroll" data-target=".navbar" data.offset="60" style="background-color: white;"> 
+        <div class="header navbar" id="stickyHeader">
+           <a href="#" class="logo"><img src="assets/images/logo.svg" /></a>
+           <div id="menu">
+               <a href="#" class="menuLink">WOZ waarde <i class="fas fa-caret-down"></i></a>
+               <a href="#" class="menuLink">WOZ waarde check <i class="fas fa-caret-down"></i></a>
+               <a href="#" class="menuLink">Bezwaar maken WOZ <i class="fas fa-caret-down"></i></a>
+           </div>
+           <a href="#" class="btn bezwaarNu" role="button">Bezwaar Nu !</a>
+        </div>
+        <div class="mobileContainer">
+            <div class="mobileNav">
+                <a href="#" class="logo"><img src="assets/images/logo.svg" /></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars fa-lg"></i>
+                </a>
+                <div id="mobileLinks">
+                    <a href="#">WOZ waarde <i class="fas fa-caret-down"></i></a>
+                    <a href="#">WOZ waarde check <i class="fas fa-caret-down"></i></a>
+                    <a href="#">Bezwaar maken WOZ <i class="fas fa-caret-down"></i></a>
+                    <a href="#" class="btn bezwaarNu" role="button">Bezwaar Nu !</a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+          <div class="row widgets">
+            <div class="myWidget col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <h3>Bezwaar 24</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Method</a></li>
+                    <li><a href="#">WOZ Texatie</a></li>
+                    <li><a href="#">Cijfers</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="myWidget col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <h3>WOZ</h3>
+                <ul>
+                    <li><a href="#">Bezwaar WOZ</a></li>
+                    <li><a href="#">Verhuurderheffing</a></li>
+                    <li><a href="#">Eigenwoningforfait</a></li>
+                    <li><a href="#">WOZ Verlagen</a></li>
+                </ul>
+            </div>
+            <div class="myWidget col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <h3>Anderen</h3>
+                <ul>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                    <li><a href="#">Delor two</a></li>
+                    <li><a href="#">Anderen</a></li>
+                </ul>
+            </div>
+          </div>
+          <div class="copyright">
+            <div class="copyrightText">
+              <p>Copyright © 2020 Bezwaar 24. Alle rechten voorbehouden. | Privacybeleid</p>
+            </div>
+            <div class="bezwaar24">
+              <p>Gemaakt Door</p>
+              <img src="assets/images/logo.svg"/>
+            </div>
+          </div>
+        </footer>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("mobileLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+            </script>
+            <script>
+                window.onscroll = function() {scrollingHeader()};
+
+                    var header = document.getElementById("stickyHeader");
+                    var sticky = header.offsetTop;
+                    function scrollingHeader() {
+                        if (window.pageYOffset > sticky) {
+                            header.classList.add("sticky");
+                        } else {
+                            header.classList.remove("sticky");
+                        }
+                        }
+                    
+            </script>
     </body>
 </html>
