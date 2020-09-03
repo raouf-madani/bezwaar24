@@ -104,6 +104,113 @@
    } 
    
 }
+
+/*********************Help Section Start***************************************/
+@media only screen and (max-width: 1300px){
+    
+    #help-row-container .row {
+        width: 85%;
+        margin-top: 25px;
+        
+        }
+        .help-dashed-container {
+   
+            padding: 30px;
+            border-color: #46738A;
+            /* background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='%2346738AFF' stroke-width='9' stroke-dasharray='7%25%2c 15%25' stroke-dashoffset='0' stroke-linecap='round'/%3e%3c/svg%3e");
+            border-radius: 100px; */
+            background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='%2346738AFF' stroke-width='8' stroke-dasharray='4%25%2c 11%25' stroke-dashoffset='11' stroke-linecap='round'/%3e%3c/svg%3e");
+            border-radius: 100px;
+        
+        } 
+
+        .help-bubble-container img {
+            height: 32px;
+            width :32px;
+        
+        
+          }
+
+          #help p {
+            text-align: center;
+            font: normal normal medium Montserrat;
+            font-size: 16px;
+            letter-spacing: 0px;
+            color: #000;
+            opacity: 1;
+            line-height: 1.5em;
+          }
+    
+}
+
+@media only screen and (max-width: 1000px){
+    
+    #help-row-container .row {
+        width: 100%;
+        margin-top: 25px;
+        
+        }
+        .help-dashed-container {
+   
+            padding: 20px;
+            border-color: #46738A;
+            /* background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='%2346738AFF' stroke-width='9' stroke-dasharray='7%25%2c 15%25' stroke-dashoffset='0' stroke-linecap='round'/%3e%3c/svg%3e");
+            border-radius: 100px; */
+            background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='%2346738AFF' stroke-width='8' stroke-dasharray='4%25%2c 11%25' stroke-dashoffset='11' stroke-linecap='round'/%3e%3c/svg%3e");
+            border-radius: 100px;
+        
+        } 
+
+        .help-bubble-image-container{
+
+            background-color: #0078B6; 
+            border-radius: 50%; 
+            border-style: solid;
+           border-width: 7px;
+           border-color: white; 
+           padding: 10px; 
+           -webkit-box-shadow: 0px 0px 41px 3px rgba(224,224,224,1);
+           -moz-box-shadow: 0px 0px 41px 3px rgba(224,224,224,1);
+           box-shadow: 0px 0px 41px 3px rgba(224,224,224,1);
+          }
+
+          .help-bubble-image-container-light{
+
+            background-color: #83C5E8; 
+            border-radius: 50%; 
+            border-style: solid;
+           border-width: 7px;
+           border-color: white; 
+           padding: 10px; 
+           -webkit-box-shadow: 0px 0px 35px 3px rgba(224,224,224,1);
+           -moz-box-shadow: 0px 0px 35px 3px rgba(224,224,224,1);
+           box-shadow: 0px 0px 35px 3px rgba(224,224,224,1);
+          }
+          .help-bubble-container img {
+            height: 32px;
+            width :32px;
+        
+        
+          }
+
+          #help p {
+            text-align: center;
+            font: normal normal medium Montserrat;
+            font-size: 15px;
+            letter-spacing: 0px;
+            color: #000;
+            opacity: 1;
+            line-height: 1.5em;
+          }
+}
+
+
+
+
+
+
+/*********************Help Section End***************************************/
+
 /*MAP SECTION ***************************************************************************************** */
 @media only screen and (min-width: 900px) and (max-width: 1100px){
     .iframeContainer .contactForm{
