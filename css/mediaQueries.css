@@ -1,3 +1,25 @@
+
+/* GENERAL **************************************************************************/
+@media only screen and (min-width:450px) and (max-width: 546px){
+    h1{
+        font-weight: 800;
+        font-size: 62px;
+        color:#757575;
+        opacity: 0.05;
+    }  
+     
+    
+}
+@media only screen and (max-width: 449px){
+    h1{
+        font-weight: 800;
+        font-size: 52px;
+        color:#757575;
+        opacity: 0.05;
+    }  
+     
+    
+}
 /* HEADER ********************************************************************/
 @media screen and (max-width: 1399px) {
     .header {
@@ -82,3 +104,45 @@
    } 
    
 }
+/*MAP SECTION ***************************************************************************************** */
+@media only screen and (min-width: 900px) and (max-width: 1100px){
+    .iframeContainer .contactForm{
+        left:100px
+     }
+    
+}
+@media only screen and (max-width: 899px){
+    .iframeContainer .contactForm{
+        display:none;
+     }
+
+     #map .contactFormMobileContainer{
+        text-align: center;
+        padding: 20px 60px;
+        width: 100%;
+        display: block;
+        margin-bottom: 5px;
+    } 
+    .contactFormMobileContainer .contactForm{
+      width:100%;
+      
+    }
+    .contactFormMobileContainer  h3{
+        font-size: 18px;
+        color: #0078B6;
+        font-weight: 600;
+      } 
+      .contactFormMobileContainer .nuBerekenen{   
+        background-color:#0078B6;
+        border-radius: 32px;
+        color:#fff !important;
+        font-weight: 400 !important;
+        padding:10px 50px;
+        font-size: 15px;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    } 
+    
+}
+
+
