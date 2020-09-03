@@ -37,7 +37,7 @@ h1 {
 
 section {
   padding: 45px 25px 80px 25px;
-  margin: 100px 0px;
+  margin: 20px 0px;
 }
 
 section .heading {
@@ -50,6 +50,10 @@ section .heading {
 section .heading h2 {
   z-index: 10;
   display: inline;
+  font-weight: 600;
+  font-size: 34px;
+  color: #01193C;
+
 }
 
 section .heading img {
@@ -197,6 +201,7 @@ a.icon {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 100px;
 }
 
 #help-row-container .row {
