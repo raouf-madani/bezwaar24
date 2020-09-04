@@ -211,6 +211,78 @@
 
 /*********************Help Section End***************************************/
 
+/*********************Steps Section Start***************************************/
+@media only screen and (min-width: 1500px){
+    #steps-circles-container{
+        width: 70%;
+        display: flex;
+      
+      } 
+    
+    
+}
+
+
+@media only screen and (max-width: 1200px){
+   
+    .steps-numbers{
+       
+       height: 48px;
+        width: 48px;
+    
+      
+      }
+      
+      .steps-numbers-light{
+        height: 48px;
+        width: 48px;
+
+      }
+
+      .steps-icons {
+        width: 22px;
+        height: 22px;
+
+      }
+    
+    
+}
+
+
+@media only screen and (max-width: 900px){
+   
+    .steps-numbers{
+       
+       height: 32px;
+        width: 32px;
+    
+      
+      }
+      
+      .steps-numbers-light{
+        height: 32px;
+        width: 32px;
+
+      }
+
+      .steps-icons {
+        width: 20px;
+        height: 20px;
+
+      }
+      #steps-circles-container{
+        width: 100%;
+        display: flex;
+       
+      } 
+      #test {
+
+        font-size: 9px;
+      }
+    
+}
+
+/*********************Steps Section End***************************************/
 /* FAQ CONTAINER ******************************************************************************/
   @media only screen and (min-width: 800px) and (max-width: 1200px){
     #faq .acc {
