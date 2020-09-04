@@ -18,9 +18,15 @@ section .heading2 h2{
 section .heading2 img{
    width: 70px;
    margin-right: 12.5em;
+<<<<<<< HEAD
    margin-bottom: 2.7em; 
 }
 */
+=======
+   margin-bottom: 2.7em; */
+
+
+>>>>>>> upstream/master
 /* A Enlever */
 h2 {
   font-weight: 800;
@@ -36,7 +42,7 @@ h1 {
 }
 
 section {
-  padding: 45px 25px 80px 25px;
+  padding: 45px 0 80px 0;
   margin: 20px 0px;
 }
 
@@ -63,9 +69,9 @@ section .heading img {
 
 section .headingShadow {
   text-align: center;
-  /* margin-top: -55px; */
   position: relative;
   bottom: 32px;
+  padding-bottom: 3em;
 }
 
 /* MENU *****************************************************************************/
@@ -75,6 +81,7 @@ section .headingShadow {
   background-color: white;
   z-index: 100;
 }
+
 
 .sticky {
   position: fixed;
@@ -449,6 +456,53 @@ box-shadow: 10px 10px 102px -15px rgba(0,0,0,0.75);
 
 
 /*********************************** Steps Section Start *********************/
+/* Help Section End *******************************************************************************/
+
+/* FAQ CONTAINER ******************************************************************************/
+#faq{
+  width: 100%;
+  align-content: center;
+}
+#faq .acc {
+  border-bottom: 1px solid #01193C;
+  width: 70%;
+  margin:0 auto 1em auto;
+}
+#faq .acc .questionContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.acc h5 {
+  font-size: 20px;
+  color: #01193C;
+  padding: 15px;
+  margin: 0;
+  cursor: pointer;
+  position: relative;
+  font-weight: 400;
+}
+
+.content {
+  background-color: #fff;
+ display: none;
+}
+
+.content-inner {
+  padding: 15px;
+}
+.content-inner p{
+  font-size: 16px;
+  color: #01193C;
+}
+.content * {
+  margin-top: 0;
+  line-height: 1.5;
+}
 
 /* MAP CONTAINER ******************************************************************************/
 #map {
