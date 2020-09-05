@@ -283,7 +283,8 @@
 }
 
 /*********************Steps Section End***************************************/
-/* FAQ CONTAINER ******************************************************************************/
+
+/* FAQ SECTION ******************************************************************************/
   @media only screen and (min-width: 800px) and (max-width: 1200px){
     #faq .acc {
         width: 80%;
@@ -295,6 +296,45 @@
         width: 100%;
       }
     
+}
+/*********************FAQ Section End***************************************/
+
+/*  SECTION ******************************************************************************/
+  @media only screen and (min-width: 1500px) and (max-width: 1680px){
+    #blog .row .postCard .postImage{
+      width: 450px;
+      height: 300px;
+      
+    }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1499px){
+  #blog .row .postCard .postImage{
+    width: 400px;
+    height: 267px;
+    
+  }
+}
+@media only screen and (min-width: 1150px) and (max-width: 1399px){
+  #blog .row .postCard .postImage{
+    width: 350px;
+    height: 234px;
+    
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1149px){
+  #blog .row .postCard .postImage{
+    width: 300px;
+    height: 200px;
+    
+  }
+}
+
+@media only screen and (max-width: 580px){
+  #blog .row .postCard .postImage{
+    width: 300px;
+    height: 200px;
+    
+  }
 }
 /*********************FAQ Section End***************************************/
 

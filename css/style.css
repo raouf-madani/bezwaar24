@@ -482,8 +482,74 @@ box-shadow: 10px 10px 102px -15px rgba(0,0,0,0.75);
   margin-top: 0;
   line-height: 1.5;
 }
+/* FAQ SECTION END ******************************************************************************/
 
-/* MAP CONTAINER ******************************************************************************/
+/* BLOG SECTION START ******************************************************************************/
+#blog{
+  width: 100%;
+}
+#blog .heading h2 a{
+  width: 100%;
+  color:#01193C;
+  text-decoration: none;
+}
+#blog .row{
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+#blog .row .postCard{
+  margin: 20px 20px;
+}
+#blog .row .postCard .postImage{
+  width: 517px;
+  height: 345px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+#blog .row .postCard .postImage img{
+  width: 100%;
+  height: 100%;
+  
+}
+#blog .row .postCard .postTitle{
+ text-align: left;
+ padding:30px 0;
+}
+#blog .row .postCard .postTitle h5{
+  font-size: 20px;
+  color: #01193C;
+  font-weight: 600;
+}
+#blog .row .postCard .postTitle h6{
+  font-size: 18px;
+  color: #B9B9B9;
+  font-weight: 500;
+}
+#blog .row .postCard .postExcerpt{
+  padding-bottom: 20px;
+  text-align: left;
+}
+#blog .row .postCard .postExcerpt p{
+  padding-bottom: 16px;
+  color: #000000;
+  padding-bottom: 5px;
+}
+#blog .row .postCard .postExcerpt a{
+  font-size: 19px;
+  color: #0078B6;
+  padding-bottom: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#blog .row .postCard .postExcerpt a .fa-caret-right{
+  position: relative;
+  top: 6px;
+  left: 4px;
+}
+/* BLOG SECTION END******************************************************************************/
+
+/* MAP SECTION ******************************************************************************/
 #map {
   width: 100%;
 }
