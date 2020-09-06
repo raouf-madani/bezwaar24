@@ -1,0 +1,2 @@
+[0906/013831.994:ERROR:process_reader_win.cc(123)] NtOpenThread: {Accès refusé} Un processus a demandé l’accès a un objet, mais il ne bénéficie pas des autorisations nécessaires. (0xc0000022)
+[0906/013832.091:ERROR:exception_snapshot_win.cc(99)] thread ID 1764 not found in process

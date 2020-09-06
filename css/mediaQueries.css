@@ -249,37 +249,52 @@
 }
 
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1000px){
    
+
+#steps-circles-container{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin-bottom: auto;
+
+}
+
+.steps-one-circle-container {
+  width:50%;
+  position: relative;
+  transform: rotate(90deg);
+  margin-bottom: 8.5%;
+  
+}
+
+
+.steps-white-circle {
+  transform: translate(-35%, -50%) rotate(-90deg);
+ 
+}
+#last-step-white-circle{
+  transform: translate(-35%, -50%) rotate(-90deg);
+  top: 50%;
+  left: 30.5%;
+
+}
+
+
     .steps-numbers{
-       
-       height: 32px;
-        width: 32px;
-    
-      
+      transform: rotate(-90deg);
+      height: 56px;
+      width: 56px;
       }
-      
+       
       .steps-numbers-light{
-        height: 32px;
-        width: 32px;
-
+        transform: rotate(-90deg);
+        height: 56px;
+        width: 56px;
       }
 
-      .steps-icons {
-        width: 20px;
-        height: 20px;
-
-      }
-      #steps-circles-container{
-        width: 100%;
-        display: flex;
-       
-      } 
-      #test {
-
-        font-size: 9px;
-      }
-    
+  
 }
 
 /*********************Steps Section End***************************************/
