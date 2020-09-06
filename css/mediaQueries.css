@@ -169,8 +169,11 @@
     display: flex;
     flex-direction: column; 
     justify-content: space-around;
-   
-    height: 70%;
+    height: 65%;
+  }
+  .hero-title-container{
+    margin-top: 5%;
+
   }
   
 }
