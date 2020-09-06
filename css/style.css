@@ -27,7 +27,7 @@ p {
 
 section {
   padding: 45px 0 80px 0;
-  margin: 20px 0px;
+
 }
 
 section .heading {
@@ -541,6 +541,7 @@ box-shadow: 10px 10px 102px -15px rgba(0,0,0,0.75);
   width: 100%;
   padding-right: 20px;
   padding-left: 20px;
+  margin: auto !important;
 }
 #blog .row .postCard{
   margin: 20px 20px;
