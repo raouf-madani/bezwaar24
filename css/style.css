@@ -444,6 +444,13 @@ font-weight: 700;
 
 /*************** Steps Section Start *********************************/
   
+#steps-text-container {
+  text-align: center;
+  width: 50%;
+  margin-left:25%
+
+}
+
 #steps-big-container{
   width: 100%;
   display: flex;
@@ -506,9 +513,9 @@ box-shadow: 10px 10px 102px -15px rgba(0,0,0,0.75);
 
 }
 
-#steps-icons {
-  width: 32px;
-  height: 32px;
+.steps-icons {
+  width: 20%;
+  height: 20%;
 
 }
 
@@ -564,6 +571,34 @@ box-shadow: 10px 10px 102px -15px rgba(0,0,0,0.75);
  top: 7.5%;
 
 }
+
+.step-dark-text {
+  text-align: center;
+  margin-top: 15px
+
+}
+
+.step-light-text {
+  text-align: center;
+  margin-top: 15px
+
+}
+
+.step-light-text p {
+color: #83C5E8;
+}
+
+.step-light-text h5 {
+  color: #83C5E8;
+  }
+
+.step-dark-text p  {
+  color: #0078B6;
+  }
+  .step-dark-text h5 {
+    color: #0078B6;
+    }
+
 .steps-btn-container {
   text-align: center;
   margin-top: 65px;
