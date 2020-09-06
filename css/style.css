@@ -244,7 +244,7 @@ a.icon {
   width:100vw; 
   padding-top: 0;
   overflow:hidden;
- 
+  margin-top: 7em;
 }
 
 #carouselExampleIndicators {
@@ -340,116 +340,110 @@ font-weight: 700;
   height: 100%;
 }
 
+
 /*hero Section end*/
 
 /* Help Section Start */
 #help {
-margin-top: 0;
-padding-top: 0;
-
-}
-
-
-#help p {
-  text-align: center;
-}
-
-#help-row-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 100px;
-}
-#help-row-container .row {
-  width: 75%;
-  margin-top: 10px;
-}
-
-#help-row-two-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-}
-
-
-
-#help-row-two-container .row {
-  width: 70%;
-  margin: auto;
-}
-
-#help-row-two-container .heading {
-
-  margin: 15px 0;
-
-}
-
-
-#help-row-two-container p {
+  margin-top: 0;
+  padding-top: 0;
   
-  text-align: left;
-
-}
-
-.help-bubble-container {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  padding: 30px;
-}
-
-.help-dashed-container {
-  padding: 40px;
-  border-color: #46738A;
-  /* background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='%2346738AFF' stroke-width='9' stroke-dasharray='7%25%2c 15%25' stroke-dashoffset='0' stroke-linecap='round'/%3e%3c/svg%3e");
-    border-radius: 100px; */
-  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='%2346738AFF' stroke-width='8' stroke-dasharray='4%25%2c 11%25' stroke-dashoffset='11' stroke-linecap='round'/%3e%3c/svg%3e");
-  border-radius: 100px;
-}
-
-.help-bubble-image-container {
-  background-color: #0078B6;
-  border-radius: 50%;
-  border-style: solid;
-  border-width: 7px;
-  border-color: white;
-  padding: 20px;
-  -webkit-box-shadow: 0px 0px 41px 3px rgba(224, 224, 224, 1);
-  -moz-box-shadow: 0px 0px 41px 3px rgba(224, 224, 224, 1);
-  box-shadow: 0px 0px 41px 3px rgba(224, 224, 224, 1);
-}
-
-.help-bubble-image-container-light {
-  background-color: #83C5E8;
-  border-radius: 50%;
-  border-style: solid;
-  border-width: 7px;
-  border-color: white;
-  padding: 20px;
-  -webkit-box-shadow: 0px 0px 35px 3px rgba(224, 224, 224, 1);
-  -moz-box-shadow: 0px 0px 35px 3px rgba(224, 224, 224, 1);
-  box-shadow: 0px 0px 35px 3px rgba(224, 224, 224, 1);
-}
-
-.help-bubble-container img {
-  height: 48px;
-  width: 48px;
-}
+  }
+  
+  
+  #help p {
+    text-align: center;
+  }
+  
+  #help-row-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  #help-row-container .row {
+    width: 75%;
+    margin-top: 10px;
+  }
+  
+  #help-row-two-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  
+  
+  #help-row-two-container .row {
+    width: 70%;
+    margin: auto;
+  }
+  
+  #help-row-two-container .heading {
+  
+    margin: 15px 0;
+  
+  }
+  
+  
+  #help-row-two-container p {
+    
+    text-align: left;
+  
+  }
+  
+  .help-bubble-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+  }
+  
+  .help-dashed-container {
+    padding: 40px;
+    border-color: #46738A;
+    /* background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='%2346738AFF' stroke-width='9' stroke-dasharray='7%25%2c 15%25' stroke-dashoffset='0' stroke-linecap='round'/%3e%3c/svg%3e");
+      border-radius: 100px; */
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='%2346738AFF' stroke-width='8' stroke-dasharray='4%25%2c 11%25' stroke-dashoffset='11' stroke-linecap='round'/%3e%3c/svg%3e");
+    border-radius: 100px;
+  }
+  
+  .help-bubble-image-container {
+    background-color: #0078B6;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 7px;
+    border-color: white;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 41px 3px rgba(224, 224, 224, 1);
+    -moz-box-shadow: 0px 0px 41px 3px rgba(224, 224, 224, 1);
+    box-shadow: 0px 0px 41px 3px rgba(224, 224, 224, 1);
+  }
+  
+  .help-bubble-image-container-light {
+    background-color: #83C5E8;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 7px;
+    border-color: white;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 35px 3px rgba(224, 224, 224, 1);
+    -moz-box-shadow: 0px 0px 35px 3px rgba(224, 224, 224, 1);
+    box-shadow: 0px 0px 35px 3px rgba(224, 224, 224, 1);
+  }
+  
+  .help-bubble-container img {
+    height: 48px;
+    width: 48px;
+  }
 
 /* Help Section End */
 
 /*************** Steps Section Start *********************************/
   
-#steps-text-container {
-  text-align: center;
-  width: 50%;
-  margin-left:25%
-
-}
-
 #steps-big-container{
   width: 100%;
   display: flex;
@@ -512,9 +506,9 @@ box-shadow: 10px 10px 102px -15px rgba(0,0,0,0.75);
 
 }
 
-.steps-icons {
-  width: 20%;
-  height: 20%;
+#steps-icons {
+  width: 32px;
+  height: 32px;
 
 }
 
@@ -570,34 +564,6 @@ box-shadow: 10px 10px 102px -15px rgba(0,0,0,0.75);
  top: 7.5%;
 
 }
-
-.step-dark-text {
-  text-align: center;
-  margin-top: 15px
-
-}
-
-.step-light-text {
-  text-align: center;
-  margin-top: 15px
-
-}
-
-.step-light-text p {
-color: #83C5E8;
-}
-
-.step-light-text h5 {
-  color: #83C5E8;
-  }
-
-.step-dark-text p  {
-  color: #0078B6;
-  }
-  .step-dark-text h5 {
-    color: #0078B6;
-    }
-
 .steps-btn-container {
   text-align: center;
   margin-top: 65px;
@@ -610,8 +576,6 @@ color: #83C5E8;
   width: 15em; 
   padding: 10px 20px;
 }
-
-
 
 /*********************************** Steps Section Start *********************/
 /* Help Section End *******************************************************************************/

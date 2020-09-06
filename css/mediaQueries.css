@@ -175,6 +175,13 @@
   
 }
 
+@media screen and (min-width: 768px) and (max-width: 1100x) {
+  #hero {
+    
+    margin-top: 0;
+  }
+  } 
+
 @media only screen and (max-width: 1400px){
 
 
