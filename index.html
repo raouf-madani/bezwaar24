@@ -46,13 +46,9 @@
  
     
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="height:80%; width:auto;display: flex;justify-content: center;align-items: center;padding-left: 10%;padding-right: 10%; "  >
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" ></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
+    
     <div class="carousel-inner" >
-      <div class="carousel-item active" >
+      <div class="carousel-item" >
     
         <div class="row" >
           <div class="col-sm-6" >
@@ -75,12 +71,8 @@
 
           <div class="col-sm-6" >
           
-                 <div style=" 
-                 border-radius: 55% 45% 32% 68% / 54% 77% 23% 46%;
-                 overflow: hidden;
-                 " 
-                 >
-                  <img  src="assets/images/jacques-bopp-Hh18POSx5qk-unsplash.png" alt="First slide"  style="width: 100%;height: 100%;">
+                 <div >
+                  <img  src="assets/images/groupe60.png" alt="First slide"  style="width: 100%;height: 100%;">
                  </div>
                
           </div>
@@ -112,15 +104,11 @@
 
           <div class="col-sm-6" >
           
-                 <div style=" 
-                 border-radius: 55% 45% 32% 68% / 54% 77% 23% 46%;
-                 overflow: hidden;
-                 " 
-                 >
-                  <img  src="assets/images/jacques-bopp-Hh18POSx5qk-unsplash.png" alt="First slide"  style="width: 100%;height: 100%;">
-                 </div>
-               
-          </div>
+            <div>
+             <img  src="assets/images/groupe60.png" alt="First slide"  style="width: 100%;height: 100%;">
+            </div>
+          
+     </div>
       
         </div>
       </div>
@@ -146,18 +134,13 @@
         </div>
            
           </div>
-
           <div class="col-sm-6" >
           
-                 <div style=" 
-                 border-radius: 55% 45% 32% 68% / 54% 77% 23% 46%;
-                 overflow: hidden;
-                 " 
-                 >
-                  <img  src="assets/images/jacques-bopp-Hh18POSx5qk-unsplash.png" alt="First slide"  style="width: 100%;height: 100%;">
-                 </div>
-               
-          </div>
+            <div>
+             <img  src="assets/images/groupe60.png" alt="First slide"  style="width: 100%;height: 100%;">
+            </div>
+          
+     </div>
       
         </div>
       </div>
@@ -251,7 +234,7 @@
 
     <div class="col-lg-6" >
            <div >
-            <img src="assets/images/183.png" alt="next" style="width:100%;height:auto" >
+            <img src="assets/images/shape2.png" alt="next" style="width:100%;height:auto" >
            </div>
     </div>
 
@@ -311,8 +294,8 @@
     <div class="steps-white-circle">
       <img src="assets/images/outline.svg" class="steps-icons" />
       <div style="text-align: center;margin-top: 15px">
-        <h5 id="test">Step 1.</h5>
-        <p id="test" >Aanmelden</p>
+        <h5 >Step 1.</h5>
+        <p >Aanmelden</p>
       </div>
     </div>
   
@@ -354,9 +337,9 @@
   <div class="steps-numbers">
     <span class="step-number-text">04</span>
   </div>
-  <img src="assets/images/circleArrow.svg" style="width: 100%;" />
+  <img src="assets/images/no-arrow-circle.svg" style="width: 80%;" />
 
-  <div class="steps-white-circle">
+  <div id="last-step-white-circle">
     <img src="assets/images/attendance-1.svg" class="steps-icons" />
     <div style="text-align: center;margin-top: 15px">
       <h5>Step 4.</h5>
@@ -372,7 +355,9 @@
 
 </div>
 
-
+<div class="steps-btn-container">
+<a href="#" class="btn" role="button">Zie de details</a>
+</div>
 </section>
  <!---------------------------------Steps section End---------------------------------------------->
  <!--FAQ section ************************************************************** -->
@@ -584,6 +569,24 @@
     </div>
   </footer>
 
+
+<script>
+
+var myCarousel = $(".carousel");
+myCarousel.append("<ol class='carousel-indicators'></ol>");
+var indicators = $(".carousel-indicators"); 
+
+myCarousel.find(".carousel-inner").children(".carousel-item").each(function(index) {
+    (index === 0) ?  
+    
+    indicators.append("<li data-target='#carouselExampleIndicators' data-slide-to='"+index+"' class='active'></li>") : 
+    indicators.append("<li data-target='#carouselExampleIndicators' data-slide-to='"+index+"'></li>");
+});     
+$('.carousel-inner div:first').addClass('active');
+
+$('.carousel').carousel();
+</script>
+
   <script>
       const myFunction=() =>{
       var x = document.getElementById("mobileLinks");
@@ -593,6 +596,7 @@
         x.style.display = "block";
       }
     }
+
   </script>
   <script>
     window.onscroll = () => {
