@@ -79,7 +79,7 @@ section .headingShadow {
   background-color: #F8F8FB;
   position: absolute;
 }
-
+/* MENU **************************************************************************** */
 .navbar {
   padding:20px 100px;
   background-color: #fff;
@@ -118,126 +118,7 @@ section .headingShadow {
   position: relative;
   left: 15em;
 }
-/* MENU ****************************************************************************
 
-.header {
-  overflow: hidden;
-  padding: 20px 100px;
-  background-color: white;
-  z-index: 100;
-}
-
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: white;
-}
-
-.sticky + #hero {
-    padding-top: 102px;
-  }
-
-.header a {
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 16px;
-  line-height: 25px;
-}
-
-#menu .menuLink:hover {
-  color: #0078B6 !important;
-}
-
-#menu .menuLink.active {
-  color: #0078B6 !important;
-}
-
-.logo {
-  float: left;
-  height: auto;
-}
-
-.bezwaarNu {
-  float: right;
-  background-color: #0078B6;
-  border-radius: 32px;
-  color: #fff !important;
-  font-weight: 600 !important;
-  padding-right: 20px !important;
-  padding-left: 20px !important;
-}
-*/
-
-/* MOBILE and tablet MENU 
-.mobileContainer {
-  max-width: 80%;
-  margin: auto;
-  color: #000;
-  border-radius: 10px;
-}
-
-.mobileNav {
-  overflow: hidden;
-  background-color: #fff;
-  position: relative;
-}
-
-.logo img {
-  height: 44px;
-  width: 150px;
-  
-}
-
-#mobileLinks {
-  display: none;
-  margin-top: 50px;
-  float: right;
-  background-color: yellow;
-  width: 300px !important;
-  height: 100vh;
-  overflow: auto;
-}
-
-#mobileLinks a {
-  color: black;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 16px;
-  display: block;
-}
-
-#mobileLinks .bezwaarNu {
-  background-color: #0078B6;
-  border-radius: 32px;
-  color: #fff !important;
-  font-weight: 600 !important;
-  padding-right: 20px !important;
-  padding-left: 20px !important;
-  margin-top: 20px;
-  margin-left: 10px;
-  float: left;
-}
-
-a.icon {
-  background: #fff;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.fa-bars {
-  margin-top: 15px !important;
-}
-
-#mobileLinks a:hover, .mobileNav a:active {
-  color: #0078B6;
-}
-*/
 /**********************Hero Section Start*****************************/
 #hero {
   height:100vh; 
