@@ -177,11 +177,25 @@ a.icon {
 
 /**********************Hero Section Start*****************************/
 #hero {
-  margin: 0;
-  padding: 0;
+  height:100vh; 
+  width:100vw; 
+  padding-top: 0;
+  overflow:hidden;
 
 }
 
+#carouselExampleIndicators {
+  height:95%;
+   width:95%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0% 5%; 
+   overflow: hidden;
+   
+   margin: auto;
+
+}
 
 #hero .bezwaarNu {
   float: left;
@@ -225,15 +239,18 @@ font-weight: 700;
   width: 40px;
   border: 2px solid #0078B6;
   border-radius: 15px;
-
+  margin-right: 15px;
+  overflow :hidden;
+  
+ 
 }
 
 .carousel-indicators .active {
   height: 7px;
   width: 40px;
-
   border-radius: 15px;
   background-color: #0078B6;
+
 }
 
 
@@ -243,14 +260,16 @@ font-weight: 700;
   display: flex;
   flex-direction: column; 
   justify-content: space-around;
+
+  
 }
 
 .hero-big-text-container{
-  height: 75%; 
   display: flex;
   flex-direction: column; 
   justify-content: space-around;
-
+ 
+  height: 100%;
 }
 
 /*hero Section end*/
@@ -276,7 +295,7 @@ padding-top: 0;
 }
 #help-row-container .row {
   width: 75%;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 #help-row-two-container {
@@ -284,7 +303,7 @@ padding-top: 0;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* margin-bottom: 100px; */
+
 }
 
 
@@ -294,7 +313,18 @@ padding-top: 0;
   margin: auto;
 }
 
+#help-row-two-container .heading {
 
+  margin: 15px 0;
+
+}
+
+
+#help-row-two-container p {
+  
+  text-align: left;
+
+}
 
 .help-bubble-container {
   justify-content: center;
@@ -345,6 +375,13 @@ padding-top: 0;
 
 /*************** Steps Section Start *********************************/
   
+#steps-text-container {
+  text-align: center;
+  width: 50%;
+  margin-left:25%
+
+}
+
 #steps-big-container{
   width: 100%;
   display: flex;
@@ -407,9 +444,9 @@ box-shadow: 10px 10px 102px -15px rgba(0,0,0,0.75);
 
 }
 
-#steps-icons {
-  width: 32px;
-  height: 32px;
+.steps-icons {
+  width: 20%;
+  height: 20%;
 
 }
 
@@ -465,6 +502,34 @@ box-shadow: 10px 10px 102px -15px rgba(0,0,0,0.75);
  top: 7.5%;
 
 }
+
+.step-dark-text {
+  text-align: center;
+  margin-top: 15px
+
+}
+
+.step-light-text {
+  text-align: center;
+  margin-top: 15px
+
+}
+
+.step-light-text p {
+color: #83C5E8;
+}
+
+.step-light-text h5 {
+  color: #83C5E8;
+  }
+
+.step-dark-text p  {
+  color: #0078B6;
+  }
+  .step-dark-text h5 {
+    color: #0078B6;
+    }
+
 .steps-btn-container {
   text-align: center;
   margin-top: 65px;
@@ -477,6 +542,8 @@ box-shadow: 10px 10px 102px -15px rgba(0,0,0,0.75);
   width: 15em; 
   padding: 10px 20px;
 }
+
+
 
 /*********************************** Steps Section Start *********************/
 /* Help Section End *******************************************************************************/
