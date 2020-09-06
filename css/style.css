@@ -80,7 +80,46 @@ section .headingShadow {
   position: absolute;
 }
 
-/* MENU *****************************************************************************/
+.navbar {
+  padding:20px 100px;
+  background-color: #fff;
+}
+
+.navbar a img {
+  height: 58px !important;
+  width: 230px !important;
+}
+.navbar #navbar-list-2 ul {
+  margin:auto;
+}
+.navbar #navbar-list-2 ul li a {
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 25px;
+}
+.navbar #navbar-list-2 ul li a:hover, .navbar #navbar-list-2 ul li a:active {
+  color: #0078B6;
+  
+}
+.navbar-toggler{
+ border:none !important;
+}
+.navbar #navbar-list-2 .navbar-nav .bezwaarNu {
+  background-color: #0078B6;
+  border-radius: 32px;
+  color: #fff !important;
+  font-weight: 500 !important;
+  padding-right:20px;
+  padding-left:20px;
+  padding-top: 12px;
+  position: relative;
+  left: 15em;
+}
+/* MENU ****************************************************************************
+
 .header {
   overflow: hidden;
   padding: 20px 100px;
@@ -131,10 +170,9 @@ section .headingShadow {
   padding-right: 20px !important;
   padding-left: 20px !important;
 }
+*/
 
-
-
-/* MOBILE and tablet MENU */
+/* MOBILE and tablet MENU 
 .mobileContainer {
   max-width: 80%;
   margin: auto;
@@ -199,7 +237,7 @@ a.icon {
 #mobileLinks a:hover, .mobileNav a:active {
   color: #0078B6;
 }
-
+*/
 /**********************Hero Section Start*****************************/
 #hero {
   margin: 0;

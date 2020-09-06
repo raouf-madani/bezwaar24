@@ -16,15 +16,44 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data.offset="60" style="background-color: white;">
-  <div class="header navbar" id="stickyHeader">
+
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="assets/images/logo.svg" alt="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-list-2">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">WOZ waarde <i class="fas fa-caret-down"></i> </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">WOZ waarde check <i class="fas fa-caret-down"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Bezwaar maken WOZ <i class="fas fa-caret-down"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Nieuws</a>
+        </li>
+        <a href="#" class="btn bezwaarNu" role="button">Bezwaar Nu !</a>
+      </ul>
+    </div>
+    
+  </nav>
+  <!--<div class="header" id="stickyHeader">
     <a href="#" class="logo"><img src="assets/images/logo.svg" /></a>
     <div id="menu">
       <a href="#" class="menuLink">WOZ waarde <i class="fas fa-caret-down"></i></a>
       <a href="#" class="menuLink">WOZ waarde check <i class="fas fa-caret-down"></i></a>
       <a href="#" class="menuLink">Bezwaar maken WOZ <i class="fas fa-caret-down"></i></a>
+      <a href="#" class="menuLink">Nieuws</a>
     </div>
     <a href="#" class="btn bezwaarNu" role="button">Bezwaar Nu !</a>
-  </div>
+  </div>-->
+  <!--
   <div class="mobileContainer">
     <div class="mobileNav">
       <a href="#" class="logo"><img src="assets/images/logo.svg" /></a>
@@ -35,11 +64,12 @@
         <a href="#">WOZ waarde <i class="fas fa-caret-down"></i></a>
         <a href="#">WOZ waarde check <i class="fas fa-caret-down"></i></a>
         <a href="#">Bezwaar maken WOZ <i class="fas fa-caret-down"></i></a>
+        <a href="#" class="menuLink">Nieuws</a>
         <a href="#" class="btn bezwaarNu" role="button">Bezwaar Nu !</a>
       </div>
     </div>
   </div>
-
+-->
 <!-------------------------------------------------------- Hero Section Start -------------------------------------------------->
 
 <section id = "hero" style="height:100vh; width:100vw; padding: 0;" >
@@ -649,33 +679,7 @@ $('.carousel-inner div:first').addClass('active');
 $('.carousel').carousel();
 </script>
 
-  <script>
-      const myFunction=() =>{
-      var x = document.getElementById("mobileLinks");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-    }
-
-  </script>
-  <script>
-    window.onscroll = () => {
-      scrollingHeader()
-    };
-
-    var header = document.getElementById("stickyHeader");
-    var sticky = header.offsetTop;
-
-    const scrollingHeader=() => {
-      if (window.pageYOffset > sticky) {
-        header.classList.add("sticky");
-      } else {
-        header.classList.remove("sticky");
-      }
-    }
-  </script>
+  
   <script>
     
 $(document).ready(function(){
