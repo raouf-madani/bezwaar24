@@ -523,7 +523,7 @@ box-shadow: 10px 10px 102px -15px rgba(0,0,0,0.75);
 }
 .content-inner p{
   font-size: 16px;
-  color: #01193C;
+  color: #000;
 }
 .content * {
   margin-top: 0;
