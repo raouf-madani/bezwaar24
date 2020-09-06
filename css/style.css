@@ -3,6 +3,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   max-width: 100%;
   overflow-x: hidden !important;
+  
 }
 
 
@@ -22,11 +23,11 @@ h1 {
 
 p {
    font-size: 16px;
-   
+   color:#000;
 }
 
 section {
-  padding: 45px 0 80px 0;
+  padding: 80px 0 80px 0;
 
 }
 
@@ -56,6 +57,29 @@ section .headingShadow {
   padding-bottom: 3em;
 }
 
+.halfCircle{
+  width: 150px;
+  height: 300px;
+  border-top-right-radius:150px;
+  border-bottom-right-radius:150px;
+  background-color: #F8F8FB;
+  position: absolute;
+}
+.midHalfCircle{
+  width: 200px;
+  height: 250px;
+  border-radius:50%;
+  background-color: #F8F8FB;
+  position: absolute;
+}
+.quarterCircle{
+  width: 200px;
+  height: 250px;
+  border-radius:50%;
+  background-color: #F8F8FB;
+  position: absolute;
+}
+
 /* MENU *****************************************************************************/
 .header {
   overflow: hidden;
@@ -72,9 +96,10 @@ section .headingShadow {
   background-color: white;
 }
 
-/*.sticky + .content {
+.sticky + #hero {
     padding-top: 102px;
-  }*/
+  }
+
 .header a {
   color: black;
   text-align: center;
@@ -181,7 +206,11 @@ a.icon {
   padding: 0;
 
 }
-
+#hero .quarterCircle{
+  z-index: -1;
+  margin-left: -8em;
+  top:10em;
+}
 
 #hero .bezwaarNu {
   float: left;
@@ -485,6 +514,23 @@ box-shadow: 10px 10px 102px -15px rgba(0,0,0,0.75);
 #faq{
   width: 100%;
   align-content: center;
+  position: relative;
+ 
+}
+#faq .halfCircle{
+   bottom: 30em;
+   z-index: -1;
+}
+#faq .midHalfCircle{
+  right: 1px;
+  z-index: -1;
+  margin-right: -8.5em;
+  top:25em;
+}
+#faq .quarterCircle{
+  z-index: -1;
+  top:100em;
+  margin-left: -8.5em;
 }
 #faq .acc {
   border-bottom: 1px solid #01193C;
@@ -518,10 +564,7 @@ box-shadow: 10px 10px 102px -15px rgba(0,0,0,0.75);
 .content-inner {
   padding: 15px;
 }
-.content-inner p{
-  font-size: 16px;
-  color: #000;
-}
+
 .content * {
   margin-top: 0;
   line-height: 1.5;
@@ -580,7 +623,6 @@ box-shadow: 10px 10px 102px -15px rgba(0,0,0,0.75);
 }
 #blog .row .postCard .postExcerpt p{
   padding-bottom: 16px;
-  color: #000000;
   padding-bottom: 5px;
 }
 #blog .row .postCard .postExcerpt a{
@@ -717,6 +759,9 @@ box-shadow: 10px 10px 102px -15px rgba(0,0,0,0.75);
   font-size: 18px;
   text-decoration: none;
   color: black;
+}
+.widgets .myWidget ul li a:hover {
+  color: #0078B6;
 }
 
 .footerWideScreen .copyright {
