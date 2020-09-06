@@ -299,12 +299,15 @@
 }
 /*********************FAQ Section End***************************************/
 
-/*  SECTION ******************************************************************************/
+/*BLOG  SECTION ******************************************************************************/
   @media only screen and (min-width: 1500px) and (max-width: 1680px){
     #blog .row .postCard .postImage{
       width: 450px;
       height: 300px;
       
+    }
+    .postCard .points{
+      left: 20em;
     }
 }
 @media only screen and (min-width: 1300px) and (max-width: 1499px){
@@ -313,6 +316,10 @@
     height: 267px;
     
   }
+  .postCard .points{
+    left: 18em;
+    bottom: 23em;
+  }
 }
 @media only screen and (min-width: 1150px) and (max-width: 1399px){
   #blog .row .postCard .postImage{
@@ -320,12 +327,45 @@
     height: 234px;
     
   }
+  .postCard .points{
+    left: 16em;
+    bottom: 23em;
+  }
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1149px){
   #blog .row .postCard .postImage{
     width: 300px;
     height: 200px;
     
+  }
+  .postCard .points{
+    left: 13em;
+    bottom: 26em;
+  }
+}
+
+@media only screen and (min-width: 880px) and (max-width: 991px){
+  
+  .postCard .points{
+    left: 45em;
+    bottom: 105em;
+  }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 879px){
+  
+  .postCard .points{
+    left: 35em;
+    bottom: 105em;
+  }
+}
+
+@media only screen and (min-width: 581px) and (max-width: 719px){
+  
+  .postCard .points{
+    left: 26em;
+    bottom: 105em;
   }
 }
 
@@ -335,8 +375,12 @@
     height: 200px;
     
   }
+  .postCard .points{
+    left: 22em;
+    bottom: 75em;
+  }
 }
-/*********************FAQ Section End***************************************/
+/*********************BLOG Section End***************************************/
 
 /*MAP SECTION ***************************************************************************************** */
 @media only screen and (min-width: 900px) and (max-width: 1100px){

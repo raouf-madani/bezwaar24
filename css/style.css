@@ -500,17 +500,20 @@ box-shadow: 10px 10px 102px -15px rgba(0,0,0,0.75);
 }
 #blog .row .postCard{
   margin: 20px 20px;
+  position: relative;
+  
 }
 #blog .row .postCard .postImage{
   width: 517px;
   height: 345px;
   overflow: hidden;
   border-radius: 20px;
+
 }
 #blog .row .postCard .postImage img{
   width: 100%;
   height: 100%;
-  
+
 }
 #blog .row .postCard .postTitle{
  text-align: left;
@@ -546,6 +549,17 @@ box-shadow: 10px 10px 102px -15px rgba(0,0,0,0.75);
   position: relative;
   top: 6px;
   left: 4px;
+}
+#blog .row .postCard .postExcerpt img{
+  position: relative;
+  bottom: 36px;
+  left: 24px;
+}
+.postCard .points{
+  position: absolute;
+  bottom: 27em;
+  left: 25em;
+  z-index: -1;
 }
 /* BLOG SECTION END******************************************************************************/
 
