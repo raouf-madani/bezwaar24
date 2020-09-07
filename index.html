@@ -21,20 +21,42 @@
     <a class="navbar-brand" href="#">
       <img src="assets/images/logo.svg" alt="logo">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-list-2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
+      <span class="my-1 mx-2 close">X</span>
     </button>
     <div class="collapse navbar-collapse" id="navbar-list-2">
       <ul class="navbar-nav">
-        <li class="nav-item">
+        <div class="dropdown">
+        <li class="nav-item dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <a class="nav-link" href="#">WOZ waarde <i class="fas fa-caret-down"></i> </a>
         </li>
-        <li class="nav-item">
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+       </div>
+       <div class="dropdown">
+        <li class="nav-item dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <a class="nav-link" href="#">WOZ waarde check <i class="fas fa-caret-down"></i></a>
         </li>
-        <li class="nav-item">
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <li class="nav-item dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <a class="nav-link" href="#">Bezwaar maken WOZ <i class="fas fa-caret-down"></i></a>
         </li>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
         <li class="nav-item">
           <a class="nav-link" href="#">Nieuws</a>
         </li>
@@ -43,33 +65,7 @@
     </div>
     
   </nav>
-  <!--<div class="header" id="stickyHeader">
-    <a href="#" class="logo"><img src="assets/images/logo.svg" /></a>
-    <div id="menu">
-      <a href="#" class="menuLink">WOZ waarde <i class="fas fa-caret-down"></i></a>
-      <a href="#" class="menuLink">WOZ waarde check <i class="fas fa-caret-down"></i></a>
-      <a href="#" class="menuLink">Bezwaar maken WOZ <i class="fas fa-caret-down"></i></a>
-      <a href="#" class="menuLink">Nieuws</a>
-    </div>
-    <a href="#" class="btn bezwaarNu" role="button">Bezwaar Nu !</a>
-  </div>-->
-  <!--
-  <div class="mobileContainer">
-    <div class="mobileNav">
-      <a href="#" class="logo"><img src="assets/images/logo.svg" /></a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars fa-lg"></i>
-      </a>
-      <div id="mobileLinks">
-        <a href="#">WOZ waarde <i class="fas fa-caret-down"></i></a>
-        <a href="#">WOZ waarde check <i class="fas fa-caret-down"></i></a>
-        <a href="#">Bezwaar maken WOZ <i class="fas fa-caret-down"></i></a>
-        <a href="#" class="menuLink">Nieuws</a>
-        <a href="#" class="btn bezwaarNu" role="button">Bezwaar Nu !</a>
-      </div>
-    </div>
-  </div>
--->
+  
 <!-------------------------------------------------------- Hero Section Start -------------------------------------------------->
 
 <section id = "hero"  >
@@ -683,14 +679,15 @@ $('.carousel').carousel();
   
   <script>
     
-$(document).ready(function(){
+    $(document).ready(function(){
 
-	$('.acc .questionContainer').click(function(){
-    
-      $(this).next('.content').slideToggle();
-	});
-});
+      $('.acc .questionContainer').click(function(){
+        
+          $(this).next('.content').slideToggle();
+      });
+    });
   </script>
+  
 </body>
 
 </html>
