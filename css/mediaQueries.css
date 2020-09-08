@@ -442,9 +442,8 @@
 @media only screen and (min-width:1301px){
 
   #help {
-    margin-bottom: -150px;
-
-}
+            margin-bottom: -150px;
+        }
 
 
 }
@@ -456,8 +455,8 @@
     #help-row-container .row {
         width: 85%;
         margin-top: 25px;
-        
         }
+
         .help-dashed-container {
    
             padding: 30px;
@@ -809,3 +808,92 @@
 }
 
 /*MAP END SECTION ***************************************************************************************** */
+
+
+/*********************ARticle Start***************************************/
+@media screen and (min-width: 1199px) and (max-width: 1265px) {
+   
+  #article {
+   padding:0px 40px;
+   margin-top: 150px ;
+    }
+  } 
+@media only screen and (max-width: 1199px){
+
+  .big-container {
+    margin-top: 50px;
+
+    display: flex ;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .left-container{
+    width: 100%;
+  
+  }
+  
+  .right-container{
+    width: 100%;
+    text-align: center;
+    margin-top: 55px;
+    bottom: 0;
+  }
+
+
+  #cards-news-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 25px;
+
+}
+
+.card {
+      margin-right: 15px;
+      margin-left: 15px;
+      
+
+
+}
+}
+
+
+@media only screen and (max-width: 999px){
+
+
+  #cards-news-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+
+}
+  
+.right-container{
+  width: 100%;
+  text-align: center;
+  margin-top: 55px;
+  bottom: 0;
+}
+.card {
+  width: 98%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************ARticle Start***************************************/
