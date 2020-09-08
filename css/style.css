@@ -620,7 +620,7 @@ color: #83C5E8;
   height: 345px;
   overflow: hidden;
   border-radius: 20px;
-
+ 
 }
 #blog .row .postCard .postImage img{
   width: 100%;
@@ -629,7 +629,8 @@ color: #83C5E8;
 }
 #blog .row .postCard .postTitle{
  text-align: left;
- padding:30px 0;
+ padding-top:30px;
+ padding-bottom:30px;
 }
 #blog .row .postCard .postTitle h5{
   font-size: 20px;
@@ -821,4 +822,14 @@ color: #83C5E8;
 
 .footerMobileScreen {
   display: none;
+}
+
+/* Blog page ******************************************************************************/
+#blogPage {
+  padding:12em 10em;
+  
+}
+#blogPage .row{
+  padding-bottom:3em;
+  margin:auto;
 }

@@ -20,19 +20,21 @@
      
     
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 700px) {
   section .headingShadow {
-    text-align: center;
-    position: relative;
-    bottom: 32px;
+    display: none;
+  }
+  section .heading {
+    padding-bottom: 2em;
+  }
+ 
+} 
+@media screen and (min-width: 701px) and (max-width: 1199px) {
+  section .headingShadow {
     padding-bottom: 1em;
   }
-  #map .headingShadow {
-    text-align: center;
-    position: relative;
-    bottom: 32px;
-    padding-bottom: 3em !important;
-  }
+  
+ 
 } 
 
 /* HEADER ********************************************************************/
@@ -50,10 +52,12 @@
 
   .dropdown:hover>.dropdown-menu {
     display: none;
+    
   }
 
   .dropdown-menu{
     text-align: center;
+    border-color: transparent;
   }
     }  
   @media screen and (min-width: 1065px) and (max-width: 1199px) {
@@ -788,6 +792,26 @@
   }
  
 }
+
+@media only screen and (max-width: 991px){
+  #blog .row .postCard .postImage{
+   margin:auto;
+   
+  }
+  #blog .row .postCard .postTitle{
+    text-align: center;
+     
+   }
+   #blog .row .postCard .postExcerpt{
+    text-align: center;
+  }
+  #blog .row .postCard .postExcerpt p{
+    padding:0 10px;
+  }
+ 
+}
+
+
 /*********************BLOG Section End***************************************/
 
 /*MAP SECTION ***************************************************************************************** */
