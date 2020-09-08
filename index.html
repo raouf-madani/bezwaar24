@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/mediaQueries.css">
-  <link rel="icon" type="image/jpg" />
+  <link rel="icon" ref="assets/images/logo.svg" type="image/svg" />
   <title>Bezwaar24</title>
 </head>
 
@@ -574,6 +574,7 @@
     </div>
   </section>
   <!--Map section End************************************************************** -->
+  <!--FOOTER START************************************************************** -->
   <footer class="footerWideScreen">
     <div class="row widgets">
       <div class="myWidget col-lg-4 col-md-4 col-sm-4">
@@ -687,6 +688,23 @@ $('.carousel').carousel();
       });
     });
   </script>
+
+<script>
+(function($) {
+	function dropdownItems() {
+		if (window.matchMedia("(max-width: 1199px)").matches) {
+	
+      $('.dropdown').click(function(){
+        
+        $(this).children('.dropdown-menu').slideToggle();
+    });
+		} 
+	}
+
+	dropdownItems();
+	window.addEventListener("resize", dropdownItems, false);
+})(jQuery);
+</script>
   
 </body>
 
