@@ -130,6 +130,10 @@ section .headingShadow {
 .dropdown-toggle::after{
     display: none;
 }
+
+.dropdown-menu a:hover{
+  color:#0078B6 ;
+}
 .navbar-toggler>.close{
   display:inline;
 }
