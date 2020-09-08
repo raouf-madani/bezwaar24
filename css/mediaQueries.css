@@ -256,8 +256,6 @@
 
 @media only screen and (max-width: 1400px){
 
-
-
   #hero h1 {
     opacity: 1;
     color:#0078B6;
@@ -883,6 +881,13 @@
 
 @media only screen and (max-width: 999px){
 
+  #article {
+    font-size: 26px ;
+  }
+
+  #article h4{
+    font-size: 20px;
+  }
 
   #cards-news-container {
     display: flex;
@@ -891,7 +896,6 @@
     margin-top: 25px;
 
 }
-  
 .right-container{
   width: 100%;
   text-align: center;
@@ -901,10 +905,37 @@
 .card {
   width: 98%;
 }
+#article .heading {
+  width: 90%;
+margin: auto;
+
+ }
 
 }
 
+@media only screen and (max-width: 699px){
+  #article {
+    padding:0px 20px;
+    margin-top: 150px ;
+     }
 
+     .author-container {
+      align-items: center;
+      flex-direction: column;
+    
+    }
+
+    .avatar-container{
+      margin-bottom: 25px;
+      text-align: center;
+      margin-right: 0;
+      }
+
+      .author-infos {
+        text-align: center;
+      }
+
+}
 
 
 
