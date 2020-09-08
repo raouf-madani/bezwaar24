@@ -20,6 +20,21 @@
      
     
 }
+@media screen and (max-width: 1199px) {
+  section .headingShadow {
+    text-align: center;
+    position: relative;
+    bottom: 32px;
+    padding-bottom: 1em;
+  }
+  #map .headingShadow {
+    text-align: center;
+    position: relative;
+    bottom: 32px;
+    padding-bottom: 3em !important;
+  }
+} 
+
 /* HEADER ********************************************************************/
 @media screen and (max-width: 1199px) {
   .navbar {
