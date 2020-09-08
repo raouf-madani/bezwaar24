@@ -959,6 +959,11 @@ margin: auto;
         text-align: center;
       }
 
+      #cards-news-container {
+        margin-bottom: 150px;
+      
+    }
+
 }
 
 
