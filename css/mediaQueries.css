@@ -419,7 +419,6 @@
   #hero {
    height: 100%; 
    
-    
   }
   #carouselExampleIndicators {
     height:50%;
@@ -440,8 +439,20 @@
 
 
 /*********************Help Section Start***************************************/
+@media only screen and (min-width:1301px){
+
+  #help {
+    margin-bottom: -150px;
+
+}
+
+
+}
+
+
+
 @media only screen and (max-width: 1300px){
-    
+
     #help-row-container .row {
         width: 85%;
         margin-top: 25px;
@@ -478,7 +489,10 @@
 }
 
 @media only screen and (max-width: 999px){
-    
+      #help-row-container {
+        margin-bottom: 50px;
+      }
+
     #help-row-container .row {
         width: 100%;
         margin-top: 25px;
