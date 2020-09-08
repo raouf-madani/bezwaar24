@@ -306,6 +306,23 @@
     });
   </script>
 
+  <script>
+   (function($) {
+      function dropdownItems() {
+        if (window.matchMedia("(max-width: 1199px)").matches) {
+
+          $('.dropdown').click(function() {
+
+            $(this).children('.dropdown-menu').slideToggle();
+          });
+        }
+      }
+
+      dropdownItems();
+      window.addEventListener("resize", dropdownItems, false);
+    })(jQuery);
+  </script>
+
 
   <script>
     $(document).ready(function() {

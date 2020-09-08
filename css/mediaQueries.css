@@ -967,16 +967,150 @@ margin: auto;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*********************ARticle Start***************************************/
+
+
+/*********************Blog Start***************************************/
+@media only screen and (min-width: 1500px) and (max-width: 1700px){
+  #blogPage .container-fluid {
+    width: 87%;
+    
+  }
+  .breadcrumb{
+   background-color: transparent;
+   padding-left: 2.5em;
+  }
+    
+}
+
+@media only screen and (min-width: 1370px) and (max-width: 1499px){
+  #blogPage .container-fluid {
+    width: 94%;
+    
+  }
+  .breadcrumb{
+   background-color: transparent;
+   padding-left:1.7em;
+  }
+    
+}
+@media only screen and (min-width: 1200px) and (max-width: 1369px){
+  #blogPage .container-fluid {
+    width: 95%;
+    
+  }
+  .breadcrumb{
+   background-color: transparent;
+   padding-left:1.7em;
+  }
+  #blogPage .card{
+    margin:auto;
+    width: 350px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  #blogPage .container-fluid {
+    width: 100%;
+    
+  }
+  .breadcrumb{
+   background-color: transparent;
+   padding-left:1.5em;
+  }
+  #blogPage .card{
+    margin:auto;
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 991px){
+  #blogPage .container-fluid {
+    width: 100%;
+    
+  }
+  .breadcrumb{
+   background-color: transparent;
+   position: relative;
+   left: 2.5em;
+  }
+  #blogPage .card{
+    margin:auto;
+    width: 700px;
+  }
+}
+
+@media only screen and (min-width: 620px) and (max-width: 779px){
+  #blogPage .container-fluid {
+    width: 100%;
+    
+  }
+  .breadcrumb{
+   background-color: transparent;
+   position: relative;
+   left: 2em;
+  }
+  #blogPage .card{
+    margin:auto;
+    width: 550px;
+  }
+
+  #blogPage .container-fluid .pagination{
+    padding-right: 3.5em;
+    
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 619px){
+  #blogPage .container-fluid {
+    width: 100%;
+    
+  }
+  .breadcrumb{
+   background-color: transparent;
+   position: relative;
+   left: 0.5em;
+  }
+  #blogPage .card{
+    margin:auto;
+    width: 400px;
+  }
+  #blogPage .container-fluid .pagination{
+    padding-right: 3.5em;
+    
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 449px){
+  #blogPage .container-fluid {
+    width: 100%;
+    
+  }
+  .breadcrumb{
+   background-color: transparent;
+   padding-left:3.5em;
+  }
+  #blogPage .card{
+    margin:auto;
+    width: 270px;
+  }
+
+  #blogPage .container-fluid .pagination{
+    padding-right: 1.5em;
+    
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 299px){
+  #blogPage .container-fluid {
+    width: 100%;
+    
+  }
+  .breadcrumb{
+   background-color: transparent;
+   padding-left:3.5em;
+  }
+  #blogPage .card{
+    margin:auto;
+    width: 200px;
+  }
+}
