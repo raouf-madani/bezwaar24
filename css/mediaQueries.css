@@ -260,8 +260,6 @@
 
 @media only screen and (max-width: 1400px){
 
-
-
   #hero h1 {
     opacity: 1;
     color:#0078B6;
@@ -469,9 +467,8 @@
 @media only screen and (min-width:1301px){
 
   #help {
-    margin-bottom: -150px;
-
-}
+            margin-bottom: -150px;
+        }
 
 
 }
@@ -483,8 +480,8 @@
     #help-row-container .row {
         width: 85%;
         margin-top: 25px;
-        
         }
+
         .help-dashed-container {
    
             padding: 30px;
@@ -856,3 +853,130 @@
 }
 
 /*MAP END SECTION ***************************************************************************************** */
+
+
+/*********************ARticle Start***************************************/
+@media screen and (min-width: 1199px) and (max-width: 1265px) {
+   
+  #article {
+   padding:0px 40px;
+   margin-top: 150px ;
+    }
+  } 
+@media only screen and (max-width: 1199px){
+
+  .big-container {
+    margin-top: 50px;
+
+    display: flex ;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .left-container{
+    width: 100%;
+  
+  }
+  
+  .right-container{
+    width: 100%;
+    text-align: center;
+    margin-top: 55px;
+    bottom: 0;
+  }
+
+
+  #cards-news-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 25px;
+
+}
+
+.card {
+      margin-right: 15px;
+      margin-left: 15px;
+      
+
+
+}
+}
+
+
+@media only screen and (max-width: 999px){
+
+  #article {
+    font-size: 26px ;
+  }
+
+  #article h4{
+    font-size: 20px;
+  }
+
+  #cards-news-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+
+}
+.right-container{
+  width: 100%;
+  text-align: center;
+  margin-top: 55px;
+  bottom: 0;
+}
+.card {
+  width: 98%;
+}
+#article .heading {
+  width: 90%;
+margin: auto;
+
+ }
+
+}
+
+@media only screen and (max-width: 699px){
+  #article {
+    padding:0px 20px;
+    margin-top: 150px ;
+     }
+
+     .author-container {
+      align-items: center;
+      flex-direction: column;
+    
+    }
+
+    .avatar-container{
+      margin-bottom: 25px;
+      text-align: center;
+      margin-right: 0;
+      }
+
+      .author-infos {
+        text-align: center;
+      }
+
+      #cards-news-container {
+        margin-bottom: 150px;
+      
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************ARticle Start***************************************/
