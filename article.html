@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/mediaQueries.css">
   <link rel="icon" type="image/jpg" />
+  <script src="js/scripts.js"></script>
   <title>Bezwaar24</title>
 </head>
 
@@ -303,43 +304,7 @@
   </footer>
 
 
-  <script>
-    $(".card-text").each(function(i) {
-      len = $(this).text().length;
-      if (len > 164) {
-        $(this).text($(this).text().substr(0, 164) + '...');
-      }
-    });
-  </script>
-
-  <script>
-   (function($) {
-      function dropdownItems() {
-        if (window.matchMedia("(max-width: 1199px)").matches) {
-
-          $('.dropdown').click(function() {
-
-            $(this).children('.dropdown-menu').slideToggle();
-          });
-        }
-      }
-
-      dropdownItems();
-      window.addEventListener("resize", dropdownItems, false);
-    })(jQuery);
-  </script>
-
-
-  <script>
-    $(document).ready(function() {
-
-      $('.acc .questionContainer').click(function() {
-
-        $(this).next('.content').slideToggle();
-      });
-    });
-  </script>
-
+ 
 </body>
 
 </html>

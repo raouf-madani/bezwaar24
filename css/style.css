@@ -134,6 +134,9 @@ section .headingShadow {
 .dropdown-menu a:hover{
   color:#0078B6 ;
 }
+.dropdown-menu a:active{
+ background-color: #f9f9f9 ;
+}
 .navbar-toggler>.close{
   display:inline;
 }
@@ -1120,8 +1123,7 @@ a.card-title {
   width: 400px;
 }
 #blogPage .container-fluid .pagination{
-  justify-content: center; 
-  background-color: #707070;
+  justify-content: center;
 }
 #blogPage .pagination ul{
   list-style: none;

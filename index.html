@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/mediaQueries.css">
   <link rel="icon" ref="assets/images/logo.svg" type="image/svg" />
+  <script src="js/scripts.js"></script>
   <title>Bezwaar24</title>
 </head>
 
@@ -32,7 +33,7 @@
             <a class="nav-link" href="#">WOZ waarde <i class="fas fa-caret-down"></i> </a>
           </li>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">WOZ waarde woning</a>
+            <a class="dropdown-item" href="https://google.com">WOZ waarde woning</a>
             <a class="dropdown-item" href="#">WOZ waarde belasting</a>
             <a class="dropdown-item" href="#">WOZ waarde verlagen</a>
             <a class="dropdown-item" href="#">WOZ waarde bezwaar</a>
@@ -674,49 +675,7 @@
   </footer>
 
 
-  <script>
-    var myCarousel = $(".carousel");
-    myCarousel.append("<ol class='carousel-indicators'></ol>");
-    var indicators = $(".carousel-indicators");
-
-    myCarousel.find(".carousel-inner").children(".carousel-item").each(function(index) {
-      (index === 0) ?
-
-      indicators.append("<li data-target='#carouselExampleIndicators' data-slide-to='" + index + "' class='active'></li>"):
-        indicators.append("<li data-target='#carouselExampleIndicators' data-slide-to='" + index + "'></li>");
-    });
-    $('.carousel-inner div:first').addClass('active');
-
-    $('.carousel').carousel();
-  </script>
-
-
-  <script>
-    $(document).ready(function() {
-
-      $('.acc .questionContainer').click(function() {
-
-        $(this).next('.content').slideToggle();
-      });
-    });
-  </script>
-
-  <script>
-    (function($) {
-      function dropdownItems() {
-        if (window.matchMedia("(max-width: 1199px)").matches) {
-
-          $('.dropdown').click(function() {
-
-            $(this).children('.dropdown-menu').slideToggle();
-          });
-        }
-      }
-
-      dropdownItems();
-      window.addEventListener("resize", dropdownItems, false);
-    })(jQuery);
-  </script>
+  
 
 </body>
 
