@@ -9,18 +9,18 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
-    function dropdownItems() {
+       
         if (window.matchMedia("(max-width: 1199px)").matches) {
 
         $('.dropdown').click(function() {
-
-            $(this).children('.dropdown-menu').slideToggle();
+          const current_dropdown = $(this).children('.dropdown-menu');
+          $(".dropdown-menu").not(current_dropdown).slideUp();
+          current_dropdown.slideToggle();
         });
         }
-    }
 
-    dropdownItems();
-    window.addEventListener("resize", dropdownItems, false);
+
+
     });
 
 
